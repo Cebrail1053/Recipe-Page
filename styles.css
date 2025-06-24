@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(333, 35%, 91%);
+    color: hsl(30, 10%, 34%);
+}
+
+article {
+    display: flex;
+    margin: 5% 20%;
+    padding: 0px 3%;
+    justify-content: center;
+    flex-flow: column;
+    overflow: hidden;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+img {
+    margin: 5% 0%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 2.9rem;
+    color: hsl(24, 5%, 18%);
+}
+
+p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container__prep {
+    background-color: hsl(333, 35%, 89%);
+    border-radius: 10px;
+    padding: 0 5%;
+    line-height: 2.2rem;
+}
+
+.container__prep h3 {
+    color: hsl(331, 34%, 47%);
+    margin-top: 3%;
+}
+
+h2 {
+    color: hsl(332, 51%, 32%);
+    padding-top: 2.3rem;
+}
+
+article ul, article ol {
+    line-height: 2.3rem;
+    margin: 4% 3%;
+}
+
+article ul li, article ol li {
+    padding-left: 2.5%;
+}
+
+article ol li::marker {
+    color: hsl(332, 51%, 32%);
+    font-weight: 800;
+}
+
+hr {
+    border: 0.4px solid lightgrey;
+}
+
+.container__nutrition p {
+    
+}
